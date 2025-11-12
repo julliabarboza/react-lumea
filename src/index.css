@@ -1,0 +1,19 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --corBackground: #f8fbff;
+  --corPrincipal: 
+  --corFontClara: 
+  --corFontEscura:
+  --alturaRodape: 60px;
+}
+
+
+body {
+    background-color: #F8FBFF;
+}
