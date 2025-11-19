@@ -1,10 +1,11 @@
-import banner_1 from "../assets/banner.png"
-import banner_2 from "../assets/banner2.png"
-import banner_3 from "../assets/banner3.png"
+import banner_1 from "../assets/banner.png";
+import banner_2 from "../assets/banner2.png";
+import banner_3 from "../assets/banner3.png";
 import './Produtos.css';
-import { useEffect, useState } from "react"
-import { getMaquiagem } from "../services/bolosService"
-import type { Maquiagem } from "../types/Maquiagem"
+import { useEffect, useState } from "react";
+import { getMaquiagem } from "../services/maquiagemService";
+import type { Maquiagem } from "../types/Maquiagem";
+import CardProduto from "../components/CardProdutos/CardProduto";
 
 
 export default function Produtos() {
@@ -67,12 +68,14 @@ export default function Produtos() {
                 {
 
                     maquiagem.map((m: Maquiagem) => (
-                        <div className="card_produto">
-                            <img src={`http://localhost:3000/static/${m.imagens[0]}`} alt={"Imagem do produto: " + m.descricao} />
-                            <h2>{m.nome}</h2>
-                            <p>{m.descricao}</p>
-                            <span>{m.preco}</span>
-                        </div>
+                        <CardProduto
+                            key={m.id}
+                            nome={m.nome}
+                            descricao={m.descricao}
+                            preco={m.preco}
+                            imagemUrl={m.imagens[0] ?? ""}
+                            peso={m.peso}
+                        />
                     ))
                 }
 
