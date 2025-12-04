@@ -11,6 +11,7 @@
       "categorias": ["maquiagem"],
       "descricao": "Lúmea Lux Gold apresenta o rímel que une sofisticação e poder.",
       "imagens": ["rimel-removebg-preview 2.svg"],
+      "preco": 50,
       "id": "p1"
     },
     {
@@ -18,6 +19,7 @@
       "categorias": ["maquiagem"],
       "descricao": "Lúmea Red Passion é a definição de ousadia e sofisticação.",
       "imagens": ["Batom_Luméa_Vermelho_Brilhante-removebg-preview 2.svg"],
+      "preco": 50,
       "id": "p2"
     },
     {
@@ -25,6 +27,7 @@
       "categorias": ["maquiagem"],
       "descricao": "Lúmea Makeup Base foi desenvolvida para realçar a sua beleza natural.",
       "imagens": ["Base_de_Maquilhagem_Luméa_200ml-removebg-preview 2.svg"],
+      "preco": 50,
       "id": "p3"
     },
     {
@@ -32,6 +35,7 @@
       "categorias": ["maquiagem"],
       "descricao": "EyesShadow dão um lindo destaque iluminado e moderno.",
       "imagens": ["paleta_marca_luméa-removebg-preview 2.svg"],
+      "preco": 50,
       "id": "p4"
     },
     {
@@ -39,6 +43,7 @@
       "categorias": ["maquiagem"],
       "descricao": "Lúmea Golden highlighter. Um brilho sutil e elegante.",
       "imagens": ["iluminador-removebg-preview 2.svg"],
+      "preco": 50,
       "id": "p5"
     },
     {
@@ -46,6 +51,7 @@
       "categorias": ["maquiagem"],
       "descricao": "O Blush Glow Touch da Luméa, para realçar a beleza natural.",
       "imagens": ["blush_glow_touch-removebg-preview 2.svg"],
+      "preco": 50,
       "id": "p6"
     },
     {
@@ -53,6 +59,7 @@
       "categorias": ["maquiagem"],
       "descricao": "Lúmea Radiance Glow foi desenvolvida para revitalizar e iluminar a pele.",
       "imagens": ["corretivo__3_-removebg-preview 2.svg"],
+      "preco": 50,
       "id": "p7"
     },
     {
@@ -60,6 +67,7 @@
       "categorias": ["maquiagem"],
       "descricao": "Lúmea Black Eye foi desenvolvido para proporcionar traços precisos e intensos.",
       "imagens": ["Lápis_de_Boca_Contour_Perfect-removebg-preview 2.svg"],
+      "preco": 50,
       "id": "p8"
     },
     {
@@ -67,6 +75,7 @@
       "categorias": ["maquiagem"],
       "descricao": "Lúmea Eternal Glow traz muito brilho, hidratação leve e lábios irresistíveis.",
       "imagens": ["Brilho Dourado Luméa.png"],
+      "preco": 50,
       "id": "p9"
     }
   ]

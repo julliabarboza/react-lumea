@@ -7,6 +7,7 @@ import CardProduto from "../components/CardProdutos/CardProduto";
 import Carrossel from "../components/Carrossel/Carrossel";
 import Header from "../components/Header/Header";
 import { useLocation } from 'react-router-dom';
+import Footer from '../components/Footer/Footer';
 
 
 export default function Produtos() {
@@ -50,7 +51,7 @@ export default function Produtos() {
                 <h1 className="acessivel">produtos de maquiagem</h1>
                 <div className="titulo">
                     <span> {
-                        termo_pesquisado ? `Resultados para ${termo_pesquisado}` : "Nome da categoria"
+                        termo_pesquisado ? `Resultados para ${termo_pesquisado}` : "Maquiagem"
                     } </span>
                     <hr />
                 </div>
@@ -72,7 +73,9 @@ export default function Produtos() {
 
                 </section>
             </main >
+            <Footer/>
         </>
+
     )
 
 }

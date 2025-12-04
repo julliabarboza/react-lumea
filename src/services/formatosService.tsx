@@ -1,9 +1,9 @@
 export const formatosService = {
-  PrecoBR(preco: number): string {
-    return preco.toLocaleString('pt-BR', {
+  PrecoBR: (preco: number): string => {
+    return `${preco.toLocaleString('pt-BR', {
       style: 'currency',
-      currency: 'BRL',
-    });
+      currency: 'BRL'
+    })}`
   },
 
   PesoEmKg: (valorPeso: number): string => {
