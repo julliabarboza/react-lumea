@@ -1,6 +1,6 @@
 import './Footer.css'
-import whatsapp from '../../assets/whatsapp_icone.svg'
-import insta from '../../assets/instagram_icone.svg'
+import whatsapp from '../../../api/assets/Whatsapp_iconedourado.svg';
+import insta from '../../../api/assets/Instagram_iconedourada.svg';
 
 export default function Footer() {
     return (

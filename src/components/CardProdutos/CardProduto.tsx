@@ -1,5 +1,5 @@
 import './CardProduto.css';
-import maquiagem_default from '../../assets/imgs/maquiagem_default.png';
+import maquiagem_default from '../../../api/assets/maquiagem_default.png';
 import { formatosService } from '../../services/formatosService';
 import type { CardProdutoProps } from '../../types/CardProdutoProps';
 
