@@ -7,8 +7,7 @@ export default function Footer() {
         <footer>
             <section className='rodape'>
                 <div>
-                    <p>LÚMEA: SUA ESSÊNCIA EM EQUILÍBRIO, ONDE SAÚDE BEM-ESTAR E BELEZA SE ENCONTRAM
-                        PARA TRANSFORMAR VIDAS.
+                    <p>Lúmea: Sua essência em equilibrio, onde saúde, bem-estar e beleza se encontram para transformar vidas.
                     </p>
                 </div>
 
