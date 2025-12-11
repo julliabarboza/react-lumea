@@ -1,6 +1,6 @@
 import './Footer.css'
 import whatsapp from '../../../api/assets/Whatsapp_iconedourado.svg';
-import insta from '../../../api/assets/Instagram_iconedourada.svg';
+import instagram from '../../../api/assets/Instagram_iconedourada.svg';
 
 export default function Footer() {
     return (
@@ -12,8 +12,13 @@ export default function Footer() {
                 </div>
 
                 <div className="redes_sociais">
-                    <img className="whatsapp" src={whatsapp} alt="icone do whatsapp" />
-                    <img className="insta" src={insta} alt="icone do instagram" />
+                    <a href="https://wa.me/5511912345678" target="_blank">
+                        <img className='whatsapp' src={whatsapp} alt="Fale conosco no Whatsapp!" />
+                    </a>
+
+                    <a href="www.instagram.com" target="_blank">
+                        <img src={instagram} className='insta' alt="Visite nosso Instagram" />
+                    </a>
                 </div>
 
             </section>

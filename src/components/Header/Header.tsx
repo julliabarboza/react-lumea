@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Header.css'
 import { Nav, Navbar } from 'react-bootstrap';
 import { useState } from 'react';
@@ -58,10 +58,9 @@ export default function Header() {
 
                             <Nav.Item>
                                 <nav className="container_esquerda container_palavras" id="container_esquerda">
-                                    <a href="">Promoções</a>
-                                    <a href="">Presentes</a>
-                                    <a href="">Maquiagem</a>
-                                    <a href="">Corpo & Banho</a>
+                                    <a href={"/produtos/skincare"}>Skin Care</a>
+                                    <a href={"/produtos/maquiagem"}>Maquiagem</a>
+                                    <a href={"/produtos/corpo&banho"}>Corpo & Banho</a>
                                 </nav>
                             </Nav.Item>
                         </div>
@@ -81,10 +80,9 @@ export default function Header() {
 
                             <Nav.Item>
                                 <nav className="container_direita container_palavras" id="container_direita">
-                                    <a href="">Fragâncias</a>
-                                    <a href="">Cabelo</a>
-                                    <a href="">Homem</a>
-                                    <a href="">A Marca</a>
+                                    <Link to={"/produtos/frangacias"}>Fragâncias</Link>
+                                    <Link to={"/produtos/cabelo"}>Cabelo</Link>
+                                    <Link to={"/produtos/homem"}>Homem</Link>
                                 </nav>
                             </Nav.Item>
                         </div>
