@@ -80,11 +80,7 @@
     },
     {
       "nome": "Tônico Facial Luméa",
-      "categorias": [
-        "skin care",
-        "rosto",
-        "Promoções"
-      ],
+      "categorias": ["skin care"],
       "descricao": "Controle do brilho, remove as impurezas e minimiza o excesso de brilho do rosto.",
       "imagens": [
         "Tónico_Facial.png"
@@ -95,10 +91,7 @@
     },
     {
       "nome": "Hidratante Facial Luméa",
-      "categorias": [
-        "skin care",
-        "rosto"
-      ],
+      "categorias": ["skin care"],
       "descricao": "Oferece uma solução abrangente para manter a sua pele saudável.",
       "imagens": [
         "Hidratante_Facial.png"
@@ -109,12 +102,7 @@
     },
     {
       "nome": "Protetor Solar Luméa",
-      "categorias": [
-        "skin care",
-        "rosto",
-        "protetor solar",
-        "A marca"
-      ],
+      "categorias": ["skin care"],
       "descricao": "Oferece alta proteção ao sol. Toque seco de rápida absorção.",
       "imagens": [
         "Protetor_Solar.png"
@@ -125,11 +113,7 @@
     },
     {
       "nome": "Esfoliante Corporal Luméa",
-      "categorias": [
-        "skin care",
-        "corpo",
-        "Homem"
-      ],
+      "categorias": ["skin care"],
       "descricao": "Body Scrub, esfolia e hidrata, removendo profundamente as impurezas da pele.",
       "imagens": [
         "Esfoliante_Corporal.png"
@@ -140,11 +124,7 @@
     },
     {
       "nome": "Óleo Corporal Luméa",
-      "categorias": [
-        "skin care",
-        "corpo",
-        "Fragrância"
-      ],
+      "categorias": ["skin care"],
       "descricao": "Body Oil realça o brilho natural da pele, deixando-a macia e hidratada o dia todo.",
       "imagens": [
         "Óleo_Corporal.png"
@@ -155,11 +135,7 @@
     },
     {
       "nome": "Sabonete Corporal Luméa",
-      "categorias": [
-        "skin care",
-        "corpo",
-        "Corpo & Banho"
-      ],
+      "categorias": ["corpo","Corpo & Banho"],
       "descricao": "Suavité limpa mas sem agredir a pele, removendo as células mortas.",
       "imagens": [
         "Sabonete_Corporal.png"
@@ -186,9 +162,7 @@
     {
       "nome": "Água Micelar Luméa",
       "categorias": [
-        "skin care",
-        "rosto",
-        "Maquiagem"
+        "skin care"
       ],
       "descricao": "Micellar Water remove impurezas, maquiagem e oleosidade sem agredir a pele.",
       "imagens": [
@@ -203,7 +177,6 @@
       "categorias": [
         "skin care",
         "rosto",
-        "anti-idade",
         "Homem"
       ],
       "descricao": "Anti-Wrinkle Cream foi desenvolvido para reparar, hidratar e restaurar a firmeza da pele.",
